@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="panel" prefHeight="579.0" prefWidth="930.0" style="-fx-background-color: #fffff9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+       <Rectangle fx:id="pilhar9" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar0" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="245.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar8" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar7" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar6" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="192.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar5" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar3" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar4" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="268.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar0" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar1" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="pilhar2" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="132.0" layoutY="344.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Label fx:id="pilhalb9" layoutX="143.0" layoutY="89.0" />
+       <Label fx:id="pilhalb8" layoutX="143.0" layoutY="129.0" />
+       <Label fx:id="pilhalb7" layoutX="143.0" layoutY="166.0" />
+       <Label fx:id="pilhalb6" layoutX="143.0" layoutY="203.0" />
+       <Label fx:id="pilhalb5" layoutX="143.0" layoutY="241.0" />
+       <Label fx:id="pilhalb4" layoutX="143.0" layoutY="279.0" />
+       <Label fx:id="pilhalb3" layoutX="143.0" layoutY="317.0" />
+       <Label fx:id="pilhalb2" layoutX="143.0" layoutY="355.0" />
+       <Label fx:id="pilhalb1" layoutX="143.0" layoutY="393.0" />
+       <Label fx:id="pilhalb0" layoutX="143.0" layoutY="431.0" />
+       <Button fx:id="btAddPilha" layoutX="26.0" layoutY="463.0" mnemonicParsing="false" onAction="#adicionarNoPilha" text="Adiciona" />
+       <Button fx:id="btRemovePilha" layoutX="26.0" layoutY="493.0" mnemonicParsing="false" onAction="#removeNoPilha" prefHeight="25.0" prefWidth="62.0" text="Remove" />
+       <Button fx:id="btResetPilha" layoutX="26.0" layoutY="522.0" mnemonicParsing="false" onAction="#resetPilha" prefHeight="25.0" prefWidth="62.0" text="Reset" />
+       <TextField fx:id="txtAddPilha" layoutX="97.0" layoutY="463.0" onAction="#onEnter" prefHeight="25.0" prefWidth="70.0" promptText="adicionar" />
+       <Text fill="#075ce5" layoutX="73.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilha" wrappingWidth="70.0">
+           <font>
+               <Font size="18.0" />
+           </font>
+       </Text>
+       <Text fill="#1500ff" layoutX="493.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fila" textAlignment="CENTER" wrappingWidth="70.0">
+           <font>
+               <Font size="18.0" />
+           </font>
+       </Text>
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="524.0" layoutX="208.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="2.0" />
+       <Rectangle fx:id="filar0" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="249.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar1" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="306.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar2" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="364.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar3" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="421.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar4" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="478.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar5" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="534.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar6" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="590.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar7" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="646.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar8" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="702.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="filar9" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="758.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Label fx:id="filalb0" layoutX="265.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb1" layoutX="322.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb2" layoutX="380.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb3" layoutX="437.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb4" layoutX="493.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb5" layoutX="550.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb6" layoutX="606.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb7" layoutX="662.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb8" layoutX="718.0" layoutY="88.0" visible="false" />
+       <Label fx:id="filalb9" layoutX="774.0" layoutY="88.0" visible="false" />
+       <Button fx:id="btResetFila" layoutX="333.0" layoutY="191.0" mnemonicParsing="false" onAction="#resetFila" prefHeight="25.0" prefWidth="62.0" text="Reset" />
+       <Button fx:id="btRemoveFila" layoutX="265.0" layoutY="191.0" mnemonicParsing="false" onAction="#removeNoFila" prefHeight="25.0" prefWidth="62.0" text="Remove" />
+       <TextField fx:id="txtAddFila" layoutX="332.0" layoutY="163.0" onAction="#onEnter2" prefHeight="25.0" prefWidth="64.0" promptText="adicionar" />
+       <Button fx:id="btAddFila" layoutX="265.0" layoutY="163.0" mnemonicParsing="false" onAction="#adicionarNoFila" text="Adiciona" />
+       <Text fill="#0400ff" layoutX="488.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista" textAlignment="CENTER" wrappingWidth="70.0">
+           <font>
+               <Font size="18.0" />
+           </font>
+       </Text>
+       <Button fx:id="btAddLista" layoutX="357.0" layoutY="408.0" mnemonicParsing="false" onAction="#adicionarInicioLista" prefHeight="25.0" prefWidth="129.0" text="Adiciona" />
+       <TextField fx:id="txtAddLista" layoutX="492.0" layoutY="408.0" onAction="#onEnter3" prefHeight="25.0" prefWidth="45.0" promptText="valor" />
+       <Button fx:id="btRemoveLista" layoutX="356.0" layoutY="466.0" mnemonicParsing="false" onAction="#removerElementoLista" prefHeight="25.0" prefWidth="129.0" text="Remove" />
+       <Button fx:id="btResetaLista" layoutX="356.0" layoutY="524.0" mnemonicParsing="false" onAction="#resetaLista" prefHeight="25.0" prefWidth="129.0" text="Reset" />
+       <Rectangle fx:id="listar1" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="302.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar2" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="359.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar3" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="415.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar4" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="471.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar5" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="527.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar6" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="583.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar7" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="639.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar8" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="695.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Rectangle fx:id="listar9" arcHeight="5.0" arcWidth="5.0" fill="#db090921" height="35.0" layoutX="751.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+       <Label fx:id="listalb0" layoutX="252.0" layoutY="315.0" />
+       <Label fx:id="listalb1" layoutX="309.0" layoutY="315.0" />
+       <Label fx:id="listalb2" layoutX="364.0" layoutY="315.0" />
+       <Label fx:id="listalb3" layoutX="421.0" layoutY="315.0" />
+       <Label fx:id="listalb4" layoutX="477.0" layoutY="315.0" />
+       <Label fx:id="listalb5" layoutX="533.0" layoutY="315.0" />
+       <Label fx:id="listalb6" layoutX="596.0" layoutY="315.0" />
+       <Label fx:id="listalb7" layoutX="645.0" layoutY="315.0" />
+       <Label fx:id="listalb8" layoutX="701.0" layoutY="315.0" />
+       <Label fx:id="listalb9" layoutX="758.0" layoutY="315.0" />
+       <TextField fx:id="txtRemoveElementoLista" layoutX="492.0" layoutY="466.0" onAction="#onEnter4" prefHeight="25.0" prefWidth="45.0" promptText="valor" />
+       <Button fx:id="btAddPosLista" layoutX="356.0" layoutY="437.0" mnemonicParsing="false" onAction="#adicionarPosicaoLista" text="Adicionar na posição:" />
+       <TextField fx:id="txtAddPosLista" layoutX="492.0" layoutY="437.0" onAction="#onEnter5" prefHeight="25.0" prefWidth="45.0" promptText="pos" />
+       <TextField fx:id="txtAddPosListaValor" layoutX="541.0" layoutY="437.0" onAction="#onEnter5" prefHeight="25.0" prefWidth="45.0" promptText="valor" />
+       <Button fx:id="btDelPosLista" layoutX="356.0" layoutY="494.0" mnemonicParsing="false" onAction="#removerPosLista" prefHeight="25.0" prefWidth="129.0" text="Remover na posição:" />
+       <TextField fx:id="txtDelPosLista" layoutX="492.0" layoutY="494.0" onAction="#onEnter6" prefHeight="25.0" prefWidth="45.0" promptText="pos" />
+       <Button fx:id="btInsertionSortLista" layoutX="246.0" layoutY="429.0" mnemonicParsing="false" onAction="#insertionSortLista" prefHeight="25.0" prefWidth="64.0" text="Insertion" />
+       <Text layoutX="229.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ordenações" textAlignment="CENTER" wrappingWidth="98.0">
+           <font>
+             <Font size="16.0" />
+           </font>
+       </Text>
+       <Button fx:id="btSelectionSortLista" layoutX="246.0" layoutY="458.0" mnemonicParsing="false" onAction="#selectionSortLista" text="Selection" textAlignment="RIGHT" />
+       <Button fx:id="btBubbleSortLista" layoutX="246.0" layoutY="486.0" mnemonicParsing="false" onAction="#bubbleSortLista" prefHeight="25.0" prefWidth="64.0" text="Bubble" textAlignment="RIGHT" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#074ddb96" height="633.0" layoutX="567.0" layoutY="-58.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="2.0" />
+      <Button fx:id="sobre" layoutX="801.0" layoutY="10.0" onAction="#ajudaSobre" text="_Sobre" />
+      <Button fx:id="ajuda" layoutX="853.0" layoutY="10.0" onAction="#ajudaManual" text="_Ajuda" />
+   </children>
+</Pane>

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="EstruturasDeDados">
+    <output-path>$PROJECT_DIR$/out/artifacts/EstruturasDeDados</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="EstruturasFXProject" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="EstruturasFXProject" />
+        <option name="vendor" value="Brunna / Nylo" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="EstruturasDeDados.jar">
+        <element id="module-output" name="EstruturasDeDados" />
+      </element>
+    </root>
+  </artifact>
+</component>
